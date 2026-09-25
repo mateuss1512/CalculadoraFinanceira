@@ -1,0 +1,14 @@
+# Compilados C
+*.exe
+*.out
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Temporários
+*.tmp
