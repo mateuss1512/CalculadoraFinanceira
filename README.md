@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para realizar cálculos financeiros utilizando fórmulas de matemática financeira.
 
-O projeto possui uma versão web com interface gráfica e uma versão em linguagem C executada via terminal.
+O projeto possui uma versão web com interface gráfica.
 
 ## Funcionalidades
 
@@ -30,11 +30,6 @@ A interface possui navegação por módulos e um visor para exibição dos resul
 * CSS3
 * JavaScript
 
-### Terminal
-
-* Linguagem C
-* Biblioteca matemática (`math.h`)
-
 ## Estrutura do projeto
 
 ```
@@ -44,10 +39,6 @@ Calculadora-Financeira/
 │   ├── index.html
 │   ├── style.css
 │   └── app.js
-│
-├── c/
-│   ├── main.c
-│   └── capitalização simples.c
 │
 └── README.md
 ```
@@ -69,35 +60,9 @@ Não é necessário instalar dependências.
 
 ---
 
-### Versão C
-
-Compile utilizando GCC:
-
-```bash
-gcc main.c -o calculadora -lm
-```
-
-Execute:
-
-Linux/macOS:
-
-```bash
-./calculadora
-```
-
-Windows:
-
-```bash
-calculadora.exe
-```
-
 ## Objetivo
 
 O objetivo do projeto é auxiliar estudantes no aprendizado e aplicação de conceitos de matemática financeira, permitindo realizar cálculos de forma rápida e organizada.
-
-## Interface
-
-A versão web utiliza uma identidade visual retrô inspirada em calculadoras e jogos clássicos, com elementos de pixel art, cores neon e estilo arcade.
 
 ## Autor
 
